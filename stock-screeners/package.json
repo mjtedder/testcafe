@@ -1,0 +1,20 @@
+{
+  "name": "stock-screeners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testuichrome": "testcafe --skip-js-errors chrome:headless src/functional-tests",
+    "testuifirefox": "testcafe --skip-js-errors firefox src/functional-tests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.7.0"
+  },
+  "dependencies": {
+    "testcafe-vue-selectors": "^3.1.0"
+  }
+}
